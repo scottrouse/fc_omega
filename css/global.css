@@ -843,3 +843,6 @@ a:active {
   text-decoration: none;
   color: #000000;
 }
+#zone-preface .block .more-link a:before {
+  content: "<i class='icon-pencil'></i> ";
+}
