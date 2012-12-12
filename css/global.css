@@ -1,0 +1,79 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/**
+ * Colors
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  color: #ffffff;
+  background: #242424;
+  background-image: url('../images/cartographer.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  body {
+    background-image: url("../images/cartographer@2x.png");
+    background-size: 500px 499px;
+  }
+}
+.zone {
+  background: white;
+  background-image: url('../images/skewed_print.png');
+  border-left: 1px solid #373632;
+  border-right: 1px solid #373632;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  .zone {
+    background-image: url("../images/skewed_print@2x.png");
+    background-size: 360px 300px;
+  }
+}
+a:link,
+a:visited {
+  text-decoration: underline;
+  color: #e6e6e6;
+}
+a:hover {
+  color: #ffffff;
+}
+a:active {
+  text-decoration: none;
+}
+/*
+ * UM Header
+ */
+#um-header {
+  background-color: #232323;
+}
+#um-header #um-navsearch #um-topnav li {
+  display: inline;
+  padding: 0 0.5em;
+  border-right: 1px solid #6c6a63;
+  line-height: 1;
+  list-style: none;
+}
+#um-header #um-navsearch #um-topnav li.first {
+  padding-left: 0;
+}
+#um-header #um-navsearch #um-topnav li.last {
+  border-right: none;
+  padding-right: 0;
+}
+/*
+ * UM Footer
+ */
+#um-footer #um-bottomnav ul li {
+  display: inline;
+  padding: 0 0.5em;
+  border-right: 1px solid #6c6a63;
+  line-height: 1;
+  list-style: none;
+}
+#um-footer #um-bottomnav ul li.first {
+  padding-left: 0;
+}
+#um-footer #um-bottomnav ul li.last {
+  border-right: none;
+  padding-right: 0;
+}

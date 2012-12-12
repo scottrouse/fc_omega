@@ -1,0 +1,92 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+@import "mixins.less";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  color: @light;
+  background: #242424;
+  .at2x('../images/cartographer.png', 500px, 499px);
+}
+
+.zone {
+  background: white;
+  .at2x('../images/skewed_print.png', 360px, 300px);
+  border-left: 1px solid darken(@gray, 20%);
+  border-right: 1px solid darken(@gray, 20%);
+}
+
+a {
+  &:link, &:visited {
+    text-decoration: underline;
+    color: darken(@light, 10%);
+  }
+  
+  &:hover {
+    color: @light;
+  }
+  
+  &:active {
+    text-decoration: none;
+  }
+}
+
+
+/*
+ * UM Header
+ */
+#um-header {
+  background-color: @dark-gray;
+  
+  #um-logo {
+  }
+  
+  #um-navsearch {
+    
+    #um-topnav {
+      
+      ul {
+      
+      }
+      
+      li {
+        .inline-nav(@gray);
+      }
+    }
+    
+    #um-search {
+      
+      form {
+        
+        label {
+        
+        }
+      }
+    }
+  }
+}
+
+/*
+ * UM Footer
+ */
+#um-footer {
+  
+  #um-bottomnav {
+    
+    ul {
+      
+      li {
+        .inline-nav(@gray);
+        
+      }
+    }
+  }
+}
+
+
+#zone-menu {
+  
+}
