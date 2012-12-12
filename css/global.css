@@ -843,3 +843,11 @@ a:active {
   text-decoration: none;
   color: #000000;
 }
+#zone-preface .block .more-link a:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  content: "\f000 ";
+}
