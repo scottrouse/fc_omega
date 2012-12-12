@@ -106,9 +106,18 @@ a:active {
 }
 #zone-preface .block {
   background: #6c6a63;
+  background-image: url('../images/debut_dark.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  #zone-preface .block {
+    background-image: url("../images/debut_dark@2x.png");
+    background-size: 200px 200px;
+  }
 }
 #zone-preface .block h2.block-title {
-  background: #000000;
+  background: rgba(0, 0, 0, 0.7);
+  line-height: 2em;
+  padding: 0 1em;
 }
 #zone-preface .block .more-link a {
   background: #fdad02;
