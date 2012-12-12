@@ -63,6 +63,9 @@ a:active {
 /*
  * UM Footer
  */
+#um-footer #um-bottomnav ul {
+  text-align: center;
+}
 #um-footer #um-bottomnav ul li {
   display: inline;
   padding: 0 0.5em;

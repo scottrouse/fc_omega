@@ -51,7 +51,7 @@
   <?php print $page_bottom; ?>
   <!-- Begin University of Montana Footer Code. Adapted from http://umt.edu/webcommittee/standards/design.aspx -->
   <div id="um-footer">
-    <nav id="um-bottomnav">
+    <nav id="um-bottomnav" class="container-12">
         <ul>
             <li class="first odd">
                 <a href="http://www.umt.edu/">The University of Montana</a>
