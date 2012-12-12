@@ -104,3 +104,15 @@ a:active {
 #zone-menu ul li a.active {
   color: #e6e6e6;
 }
+#zone-preface .block {
+  background: #6c6a63;
+}
+#zone-preface .block h2.block-title {
+  background: #000000;
+}
+#zone-preface .block .more-link a {
+  background: #fdad02;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000000;
+}
