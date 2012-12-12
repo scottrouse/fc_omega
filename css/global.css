@@ -80,3 +80,27 @@ a:active {
   border-right: none;
   padding-right: 0;
 }
+#zone-menu {
+  background: #232323;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+#zone-menu ul {
+  margin: 0;
+  padding: 0;
+}
+#zone-menu ul li {
+  padding: 0;
+  margin: 0;
+}
+#zone-menu ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 1em;
+}
+#zone-menu ul li a:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+#zone-menu ul li a.active {
+  color: #e6e6e6;
+}
