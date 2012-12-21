@@ -768,10 +768,19 @@ a:active {
 .tabs a:visited {
   color: #000000;
 }
-#logo {
+#logo img {
   float: none;
   margin: 1em auto;
   width: 50%;
+  display: block;
+}
+#site-name {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+#site-name a {
+  text-decoration: none;
+  color: #fdad02;
 }
 /*
  * UM Header
