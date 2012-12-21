@@ -849,28 +849,28 @@ a:active {
 #zone-menu ul li a.active {
   color: #e6e6e6;
 }
-#zone-preface .block {
+#zone-preface .region {
   background: #6c6a63;
   background-image: url('../images/debut_dark.png');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
-  #zone-preface .block {
+  #zone-preface .region {
     background-image: url("../images/debut_dark@2x.png");
     background-size: 200px 200px;
   }
 }
-#zone-preface .block h2.block-title {
+#zone-preface .region h2.block-title {
   background: rgba(0, 0, 0, 0.5);
   line-height: 2em;
   padding: 0 1em;
 }
-#zone-preface .block .more-link a {
+#zone-preface .region .more-link a {
   background: #fdad02;
   padding: 0.5em;
   text-decoration: none;
   color: #000000;
 }
-#zone-preface .block .more-link a:before {
+#zone-preface .region .more-link a:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -878,11 +878,11 @@ a:active {
   text-decoration: inherit;
   content: "\f054 ";
 }
-#zone-preface .block #search-block-form {
+#zone-preface .region #search-block-form {
   background: rgba(0, 0, 0, 0.5);
   padding: 0.5em;
 }
-#zone-preface .block #search-block-form .form-item:before {
+#zone-preface .region #search-block-form .form-item:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -891,26 +891,26 @@ a:active {
   font-size: 18px;
   content: "\f054 ";
 }
-#zone-preface .block ul.menu {
+#zone-preface .region ul.menu {
   list-style: none;
 }
-#zone-preface .block ul.menu li {
+#zone-preface .region ul.menu li {
   margin: 1em 0;
   list-style: none;
   padding: 0;
   width: 100%;
 }
-#zone-preface .block ul.menu li.first {
+#zone-preface .region ul.menu li.first {
   margin-top: 0;
 }
-#zone-preface .block ul.menu li a {
+#zone-preface .region ul.menu li a {
   font-size: 18px;
   background: rgba(0, 0, 0, 0.5);
   padding: 0.5em;
   text-decoration: none;
   display: block;
 }
-#zone-preface .block ul.menu li a:before {
+#zone-preface .region ul.menu li a:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
