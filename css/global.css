@@ -875,6 +875,27 @@ a:active {
   text-decoration: inherit;
   content: "\f054 ";
 }
+#zone-preface .block ul.menu {
+  list-style: none;
+}
+#zone-preface .block ul.menu li {
+  margin: 1em 0;
+}
+#zone-preface .block ul.menu li a {
+  font-size: 18px;
+  background: #fdad02;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000000;
+}
+#zone-preface .block ul.menu li a:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  content: "\f054 ";
+}
 #region-highlight-first,
 #region-highlight-second {
   display: none;
