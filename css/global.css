@@ -741,6 +741,9 @@ body {
     background-size: 500px 499px;
   }
 }
+#page {
+  margin-bottom: 1em;
+}
 .zone {
   background: white;
   background-image: url('../images/skewed_print.png');
