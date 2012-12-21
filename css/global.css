@@ -770,7 +770,8 @@ a:active {
 }
 .logo-img {
   float: none;
-  margin: 1em;
+  margin: 1em auto;
+  width: 50%;
 }
 /*
  * UM Header
