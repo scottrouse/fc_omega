@@ -868,16 +868,13 @@ a:active {
   position: absolute;
   bottom: 0;
   right: 0;
-  -ms-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 #zone-preface .region .more-link a {
   background: #fdad02;
-  padding: 0.5em;
+  padding: 0.25em 0.5em;
   text-decoration: none;
   color: #000000;
+  display: block;
 }
 #zone-preface .region .more-link a:before {
   font-family: FontAwesome;
