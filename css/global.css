@@ -875,6 +875,18 @@ a:active {
   text-decoration: inherit;
   content: "\f054 ";
 }
+#zone-preface .block #block-search-form {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1em 0;
+}
+#zone-preface .block #block-search-form:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  content: "\f054 ";
+}
 #zone-preface .block ul.menu {
   list-style: none;
 }
