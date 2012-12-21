@@ -177,13 +177,17 @@ a {
       
       li {
         margin: 1em 0;
+        list-style: none;
+        padding: 0;
+        width: 100%;
       
         a {
           font-size: 18px;
-          background: @accent;
+          background: rgba(0,0,0,0.5);
           padding: 0.5em;
           text-decoration: none;
           color: @dark;
+          display: block;
         
           &:before {
             font-family: FontAwesome;
