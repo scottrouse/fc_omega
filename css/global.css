@@ -884,12 +884,14 @@ a:active {
   padding: 0;
   width: 100%;
 }
+#zone-preface .block ul.menu li.first {
+  margin-top: 0;
+}
 #zone-preface .block ul.menu li a {
   font-size: 18px;
   background: rgba(0, 0, 0, 0.5);
   padding: 0.5em;
   text-decoration: none;
-  color: #000000;
   display: block;
 }
 #zone-preface .block ul.menu li a:before {
