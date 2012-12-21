@@ -768,6 +768,10 @@ a:active {
 .tabs a:visited {
   color: #000000;
 }
+.logo-img {
+  float: none;
+  margin: 1em;
+}
 /*
  * UM Header
  */
