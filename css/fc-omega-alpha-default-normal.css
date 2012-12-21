@@ -4,3 +4,7 @@
 /**
  * Colors
  */
+#region-highlight-first,
+#region-highlight-second {
+  display: block;
+}

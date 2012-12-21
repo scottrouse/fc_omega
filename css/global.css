@@ -859,8 +859,8 @@ a:active {
 #region-highlight-second .block-bean h2.block-title {
   position: absolute;
   pointer-events: none;
-  top: 0.25em;
+  top: 0.5em;
   background: rgba(253, 173, 2, 0.7);
   width: 100%;
-  padding-left: 1em;
+  padding: 0 1em;
 }
