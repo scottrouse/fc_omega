@@ -885,6 +885,7 @@ a:active {
   font-style: normal;
   display: inline-block;
   text-decoration: inherit;
+  font-size: 18px;
   content: "\f054 ";
 }
 #zone-preface .block ul.menu {
@@ -955,4 +956,8 @@ a:active {
 #region-header-third {
   margin: 0;
   width: 100%;
+}
+#block-bean-college-of-forestry-and-conserva {
+  text-align: center;
+  margin-bottom: 1em;
 }
