@@ -768,7 +768,7 @@ a:active {
 .tabs a:visited {
   color: #000000;
 }
-.logo-img {
+#logo {
   float: none;
   margin: 1em auto;
   width: 50%;
