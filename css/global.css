@@ -879,7 +879,7 @@ a:active {
   background: rgba(0, 0, 0, 0.5);
   padding: 1em 0;
 }
-#zone-preface .block #search-block-form input:before {
+#zone-preface .block #search-block-form .form-item:before {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
