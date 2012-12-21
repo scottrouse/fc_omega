@@ -877,7 +877,7 @@ a:active {
 }
 #zone-preface .block #search-block-form {
   background: rgba(0, 0, 0, 0.5);
-  padding: 1em 0.5em;
+  padding: 0.5em;
 }
 #zone-preface .block #search-block-form .form-item:before {
   font-family: FontAwesome;
