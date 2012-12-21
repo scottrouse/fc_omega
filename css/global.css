@@ -851,6 +851,10 @@ a:active {
   text-decoration: inherit;
   content: "\f054 ";
 }
+#region-highlight-first,
+#region-highlight-second {
+  display: none;
+}
 #region-highlight-first .block-bean,
 #region-highlight-second .block-bean {
   position: relative;
