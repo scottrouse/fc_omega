@@ -764,6 +764,10 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+.tabs a:link,
+.tabs a:visited {
+  color: #000000;
+}
 /*
  * UM Header
  */
