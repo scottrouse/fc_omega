@@ -4,6 +4,12 @@
 /**
  * Colors
  */
+/*---------------------------------------------------
+    LESS Elements 0.8
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
 #region-highlight-first,
 #region-highlight-second {
   display: block;
