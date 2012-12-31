@@ -744,6 +744,9 @@ body {
 #page {
   margin-bottom: 1em;
 }
+#block-system-main {
+  margin-top: 1em;
+}
 .zone {
   background: white;
   background-image: url('../images/skewed_print.png');
@@ -949,7 +952,7 @@ a:active {
   float: left;
   margin-right: 1em;
   background: rgba(0, 0, 0, 0.5);
-  padding: 0.5em;
+  padding: 0.25em 1em;
   text-align: center;
 }
 .date-block .month {
