@@ -2521,3 +2521,17 @@ body .ui-tooltip {
 .ui-widget a {
   text-decoration: none;
 }
+.ui-widget .views-row {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 1px dashed;
+}
+.ui-widget .views-row-first {
+  margin-top: 0;
+  padding-top: 0;
+}
+.ui-widget .views-row-last {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
