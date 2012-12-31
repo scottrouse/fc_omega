@@ -995,6 +995,9 @@ a:active {
   font-family: inherit;
   font-size: inherit;
 }
+.ui-helper-reset {
+  font-size: inherit;
+}
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active,
