@@ -871,6 +871,9 @@ a:active {
   position: absolute;
   bottom: 0;
   right: 0;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
 #zone-preface .region .more-link a {
   background: #fdad02;
