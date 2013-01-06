@@ -962,6 +962,9 @@ a:active {
 .date-block .day {
   display: block;
 }
+.flex-nav-container {
+  margin-bottom: 0;
+}
 .flexslider {
   border: none;
   -webkit-border-top-right-radius: none;
