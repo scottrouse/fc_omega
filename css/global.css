@@ -945,6 +945,9 @@ a:active {
 #region-highlight-first .block-bean,
 #region-highlight-second .block-bean {
   position: relative;
+  -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.2);
 }
 #region-highlight-first .block-bean h2.block-title,
 #region-highlight-second .block-bean h2.block-title {
