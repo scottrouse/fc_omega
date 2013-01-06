@@ -2553,6 +2553,7 @@ body .ui-tooltip {
 }
 .ui-widget a {
   text-decoration: none;
+  display: block;
 }
 .ui-widget .views-row {
   margin: 1em 0;
