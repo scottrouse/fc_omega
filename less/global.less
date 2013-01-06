@@ -74,11 +74,16 @@ a {
   background-color: @dark-gray;
   
   #um-logo {
+  
+    img {
+      padding: 10px 0;
+    }
   }
   
   #um-navsearch {
     
     #um-topnav {
+      text-align: right;
       
       ul {
       
@@ -90,11 +95,12 @@ a {
     }
     
     #um-search {
+      text-align: right;
       
       form {
         
         label {
-        
+          display: none;
         }
       }
     }
@@ -293,6 +299,11 @@ a {
   border: none;
   .border-radius(none);
   .drop-shadow(0,0,0,0);
+  margin-bottom: 10px;
+  
+  .flex-control-nav {
+    bottom: 0;
+  }
 }
 
 #region-header-third {

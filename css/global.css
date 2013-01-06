@@ -794,6 +794,12 @@ a:active {
 #um-header {
   background-color: #232323;
 }
+#um-header #um-logo img {
+  padding: 10px 0;
+}
+#um-header #um-navsearch #um-topnav {
+  text-align: right;
+}
 #um-header #um-navsearch #um-topnav li {
   display: inline;
   padding: 0 0.5em;
@@ -807,6 +813,12 @@ a:active {
 #um-header #um-navsearch #um-topnav li.last {
   border-right: none;
   padding-right: 0;
+}
+#um-header #um-navsearch #um-search {
+  text-align: right;
+}
+#um-header #um-navsearch #um-search form label {
+  display: none;
 }
 /*
  * UM Footer
@@ -999,6 +1011,10 @@ a:active {
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  margin-bottom: 10px;
+}
+.flexslider .flex-control-nav {
+  bottom: 0;
 }
 #region-header-third {
   margin: 0;
