@@ -15,7 +15,7 @@
   <div id="um-header" class="clearfix">
     <div class="container-12">
       <div id="um-logo" class="grid-3">
-        <a href="http://www.umt.edu/" title="The University of Montana"><img alt="The University of Montana" src="http://jour.umt.edu/sites/all/themes/jschool/images/um/umlogo200w.png" title="UM Logo"></a> <!-- @todo — Replace hard link to UM logo with image replacement. -->
+        <a href="http://www.umt.edu/" title="The University of Montana"><img alt="The University of Montana" src="<?php drupal_get_path('theme',$GLOBALS['theme']) ?>/images/umlogo.png" title="UM Logo"></a>
       </div>
       <div id="um-navsearch">
           <nav id="um-topnav" class="grid-5">
