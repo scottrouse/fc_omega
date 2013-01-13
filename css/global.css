@@ -2582,6 +2582,13 @@ body .ui-tooltip {
 .view-project-categories * {
   box-sizing: border-box;
 }
+.view-project-categories .group-left {
+  text-align: center;
+}
 .view-project-categories .field-name-field-featured-image img {
-  padding: 10px;
+  max-width: 90%;
+  padding: 10px 0;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
