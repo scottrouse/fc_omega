@@ -2551,6 +2551,12 @@ body .ui-tooltip {
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }
+.ui-widget ul,
+.fc-list ul,
+.ui-widget li,
+.fc-list li {
+  list-style: none;
+}
 .ui-widget a,
 .fc-list a {
   text-decoration: none;
