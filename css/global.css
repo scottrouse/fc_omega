@@ -2555,16 +2555,19 @@ body .ui-tooltip {
   text-decoration: none;
   display: block;
 }
-.ui-widget .views-row {
+.ui-widget .views-row,
+.fc-list .views-row {
   margin: 1em 0;
   padding: 1em 0;
   border-bottom: 1px dashed;
 }
-.ui-widget .views-row-first {
+.ui-widget .views-row-first,
+.fc-list .views-row-first {
   margin-top: 0;
   padding-top: 0;
 }
-.ui-widget .views-row-last {
+.ui-widget .views-row-last,
+.fc-list .views-row-last {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
