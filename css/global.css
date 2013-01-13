@@ -2551,7 +2551,8 @@ body .ui-tooltip {
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }
-.ui-widget a {
+.ui-widget a,
+.fc-list a {
   text-decoration: none;
   display: block;
 }
