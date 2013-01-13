@@ -2579,3 +2579,9 @@ body .ui-tooltip {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+.view-project-categories * {
+  box-sizing: border-box;
+}
+.view-project-categories .field-name-field-featured-image img {
+  padding: 10px;
+}
